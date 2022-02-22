@@ -1,2 +1,3 @@
-// Hier kommt dein code
-console.log("Ich werde beim laden der Seite ausgegeben!");
+window.abschicken = function () {
+  // hier kommt dein code bei klick auf den button
+};
