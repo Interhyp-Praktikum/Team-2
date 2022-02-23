@@ -24,6 +24,7 @@ h3,
 h4,
 label {
   color: white;
+  font-family: STARWARS;
 }
 
 div {
@@ -40,6 +41,7 @@ div {
   margin-bottom: 50px;
   font-family: STARWARS;
   color: rgb(210, 166, 0);
+  font-weight: bolder;
 }
 .headlineFragen {
   text-align: center;
@@ -47,6 +49,7 @@ div {
   font-family: STARWARS;
   color: rgb(210, 166, 0);
   text-decoration: underline;
+  font-weight: bolder;
 }
 .logo {
   display: flex;
@@ -55,6 +58,7 @@ div {
 .eingabefelder {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 .start {
   height: 40px;
@@ -64,28 +68,88 @@ div {
   background-color: rgb(210, 165, 0);
   border: none;
   font-size: 25px;
+  border-radius: 5px;
 }
 .infotext {
   height: 350px;
   width: 280px;
   margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  font-family: STARWARS;
+  line-height: 2;
+}
+.antworten {
+  height: 150px;
+  width: 280 px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  font-size: 40;
+  border: 2px solid rgb(219, 160, 0);
+  font-family: STARWARS;
 }
 .namensfeld {
   background-color: rgb(210, 166, 0);
   border: 2px solid rgb(210, 166, 0);
+  border-radius: 6px;
+  font-weight: bolder;
 }
 
 .namensfeld::placeholder,
 .namensfeld {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
 }
 .ära {
   background-color: rgb(210, 166, 0);
   border: 2px solid rgb(210, 166, 0);
+  border-radius: 7px;
+  font-weight: bolder;
 }
 .ära::placeholder,
 .ära {
-  color: white;
-  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.Frage {
+  color: rgb(210, 166, 0);
+  font-family: STARWARS;
+  text-align: center;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  background-color: rgb(210, 166, 0);
+  color: #000;
+  top: 9px;
+  height: 20px;
+  width: 20px;
+  border: 0;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-bottom: 5px;
+  outline: none;
+  border-radius: 40px;
+  border: 1px solid rgb(210, 166, 0);
+}
+input[type="radio"]:checked::before {
+  position: absolute;
+  font-size: 14px;
+  left: 6px;
+  top: -0;
+  font-weight: 700;
+  content: "\02143";
+  transform: rotate(40deg);
 }
