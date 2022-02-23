@@ -103,6 +103,14 @@ var frage8 = localStorage.getItem("frage8");
 var frage9 = localStorage.getItem("frage9");
 var frage10 = localStorage.getItem("frage10");
 
+if (gespeicherteÄra === "Teil 1-3") {
+  if (frage1 === "x") {
+  } else if (frage1 === "y") {
+  } else if (frage1 === "b") {
+  } else if (frage1 === "c") {
+  }
+}
+
 if (glückwunsch) {
   glückwunsch.innerText = "Glückwunsch, du bist:";
 }
