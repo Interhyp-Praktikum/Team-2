@@ -14,7 +14,9 @@ var ära1Character = [
   "Darth Sidious",
   "Jango Fett",
   "Padme Amidala",
-  "Rick Astley"
+  "Rick Astley",
+  "Watto",
+  "Jar Jar Binks"
 ];
 
 var ära2Character = [
@@ -58,6 +60,7 @@ var ära3Character = [
   "C3PO"
 ];
 var clonewarsCharacter = [
+  "Rick Astley",
   "Cody",
   "Rex",
   "Obi Wan Kenobi",
@@ -78,7 +81,9 @@ var clonewarsCharacter = [
   "Embo",
   "Hondo",
   "Tera Sinube",
-  "Aayla"
+  "Aayla",
+  "Rick Astley",
+  "Yoda"
 ];
 var ära1Steckbrief = [
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
@@ -96,7 +101,9 @@ var ära1Steckbrief = [
   "Jango Fett war ein berühmter männlicher Mandalorianer-Kopfgeldjäger und die Klonvorlage der Großen Armee der Republik. In den letzten Jahren der Galaktischen Republik war Fett als der beste Kopfgeldjäger der Galaxis bekannt und beherrschte sowohl die Treffsicherheit als auch den waffenlosen Kampf. Die Mandalorianer-Rüstung, die er trug, war mit verschiedenen Waffen und Gadgets ausgestattet, darunter ein Flammenwerfer, zwei WESTAR-34-Blasterpistolen und ein Jetpack. Sein persönliches Raumschiff war das Patrouillen- und Angriffsschiff Slave I der Firespray-31-Klasse.",
   "Padmé Amidala Naberrie war eine menschliche Senatorin, die in den letzten Jahren der Galaktischen Republik das Volk von Naboo vertrat. Vor ihrer Karriere im Galaktischen Senat war Amidala die gewählte Herrscherin des Königshauses von Naboo. Als politische Idealistin setzte sie sich für den Erhalt der Demokratie und eine friedliche Beendigung der Klonkriege ein. Doch ihre heimliche Heirat mit dem Jedi-Ritter Anakin Skywalker sollte die Zukunft der Galaxis noch Jahrzehnte später nachhaltig beeinflussen.",
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
-  "Yoda, ein machtsensitives männliches Wesen, das einer geheimnisvollen Spezies angehört, war ein legendärer Jedi-Meister, der den Aufstieg und Fall der Galaktischen Republik miterlebte, gefolgt vom Aufstieg des Galaktischen Imperiums. Von kleiner Statur, aber verehrt für seine Weisheit und Macht, bildete Yoda Generationen von Jedi aus und diente schließlich als Großmeister des Jedi-Ordens. Nachdem er neun Jahrhunderte galaktischer Geschichte erlebt hatte, spielte er eine wichtige Rolle in den Klonkriegen, bei der Wiedergeburt der Jedi durch Luke Skywalker und bei der Entschlüsselung des Pfades zur Unsterblichkeit."
+  "Yoda, ein machtsensitives männliches Wesen, das einer geheimnisvollen Spezies angehört, war ein legendärer Jedi-Meister, der den Aufstieg und Fall der Galaktischen Republik miterlebte, gefolgt vom Aufstieg des Galaktischen Imperiums. Von kleiner Statur, aber verehrt für seine Weisheit und Macht, bildete Yoda Generationen von Jedi aus und diente schließlich als Großmeister des Jedi-Ordens. Nachdem er neun Jahrhunderte galaktischer Geschichte erlebt hatte, spielte er eine wichtige Rolle in den Klonkriegen, bei der Wiedergeburt der Jedi durch Luke Skywalker und bei der Entschlüsselung des Pfades zur Unsterblichkeit.",
+  "Watto war ein führender Schrotthändler in Mos Espa auf dem Planeten Tatooine. Trotz seiner schlechten Manieren und der fraglichen Qualität seiner Ware konnte er mit seinem Ersatzteilhandel enorme Gewinne erzielen. Er war der ehemalige Besitzer der Sklaven Shmi Skywalker und ihres Sohns Anakin Skywalker. Nach einer Wette mit dem Jedi Qui-Gon Jinn verlor Watto seinen begabtesten Sklaven Anakin und geriet in eine finanzielle Krise, von der er sich niemals wieder erholen konnte. ",
+  "Jar Jar Binks war ein besonders tollpatschiger Gungan und war während der Ära der Klonkriege Abgeordneter im Galaktischen Senat. Als über Jar Jars Heimatplaneten eine Blockade von der Handelsföderation errichtet wurde, schaltete sich die Republik ein, indem sie die Jedi Qui-Gon Jinn und Obi-Wan Kenobi entsendete, um eine Einigung zu erlangen. Da die Föderation jedoch einen Krieg beabsichtigte, mussten sie auf den Planeten fliehen, wo sie auf Jar Jar trafen. Dieser half ihnen, das Volk der Naboo und die unter Wasser lebenden Gungans zu vereinen, damit sie gemeinsam gegen den Feind vorgingen. Er wurde zum General der Gungan-Armee ernannt, die die Streitkräfte der Föderation ablenken sollte, während eine Gruppe der Naboo den Palast der Hauptstadt Theed einnahmen. Dies gelang, sodass der Anführer der Handelsföderation, Nute Gunray, gefangengenommen und Naboo befreit werden konnte. "
 ];
 var ära2Steckbrief = [
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird. ",
@@ -138,6 +145,7 @@ var ära3Steckbrief = [
   "C-3PO (kurz: 3PO) war ein Protokolldroide, der zusammen mit seinem Weggefährten R2-D2 einige der wichtigsten Ereignisse der galaktischen Geschichte miterlebt hat. Ungeachtet seiner von vielen anderen Personen als umständlich empfundenen Art wurde C-3PO zu einem Helden mehrerer galaktischer Organisationen. "
 ];
 var clonewarsSteckbrief = [
+  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
   "Klon-Kommandant CC-2224, genannt Cody, war ein Offizier innerhalb der Großen Armee der Republik. Er befehligte das 7. Sky Corps und das 212. Angriffsbataillon der republikanischen Armee. Cody wurde oft Jedi-General Obi-Wan Kenobi unterstellt, in der ersten Hälfte des Klonkrieges zusammen mit Hauptmann CT-7567 „Rex“ – der mit der Zeit ein Freund von ihm wurde. Während der Schlacht um Christophsis deckte er den Verrat des Klonkriegers Slick auf. Danach sorgte er dafür, dass die Separatisten den Planeten nicht übernehmen konnten. Nach der Schlacht von Teth führte er mit Rex mehrere Inspektionen durch, unter anderem im Rishi-System, wo sie in einen Hinterhalt von Kommandodroiden gerieten. Diese hatten zu dem Zeitpunkt den Mond schon besetzt gehalten. Das Klon-Bataillon eroberte ihn zurück und hielt die Stellung, bis sich Hevy opferte und die Basis zerstörte. Das ermöglichte den Klonsoldaten, die republikanische Flotte zu alarmieren und damit einen Präventivschlag auf Kamino zu verhindern. Nach Einsätzen auf Ryloth, der Schwarzstand-Station und Geonosis war er außerdem auch bei der Rettung von Eeth Koth über Saleucami beteiligt. Zusammen mit Rex, Echo und Fives half er um das Jahr 21 VSY bei einem Überraschungsangriff der Separatisten bei der Verteidigung seiner Heimatwelt, Kamino. Er führte zum Ende des Krieges auf Utapau die Order 66 gegen General Kenobi aus, der davon völlig überrascht wurde.",
   "CT-7567, auch als Rex bekannt, war ein Klonkrieger und Captain, später Commander der Großen Armee der Republik in den Klonkriegen. Er wurde dem Jedi-Ritter Anakin Skywalker zugeteilt und führte mit diesem die 501. Legion an. Später kämpfte Rex auch zusammen mit Anakins Padawan Ahsoka Tano. Im Laufe der Klonkriege nahm er mit der 501. Legion an vielen bedeutenden Schlachten teil. Nachdem die Klonkriege durch die Korrumpierung der Republik durch Sheev Palpatine geendet hatten und er von Ahsoka Tano von seinem Inhibitor-Chip befreit worden war, führte er ein Leben abseits der Schlachtfelder auf Seelos zusammen mit zweien seiner Klon-Brüder. Nachdem die Spectres ihn für das Rebellen-Netzwerk anwarben, wurde er Teil der Phönix-Flotte und später auch der Rebellen-Allianz. Als aktiver Teil der Rebellion nahm er auch an der Schlacht von Endor unter dem Kommando von Han Solo teil, um bei der Zerstörung des Schildgenerators des Zweiten Todessterns zu helfen.",
   "Obi-Wan Kenobi, oder später Ben Kenobi, war ein menschlicher Jedi-Meister des Alten Ordens, der im Laufe seines Lebens die Geschichte der Galaxis und des Jedi-Ordens maßgeblich prägte. Nach seiner Ausbildung als Jüngling nahm Qui-Gon Jinn den jungen Obi-Wan als Padawan an, und die beiden entwickelten in vielen Jahren und auf vielen gemeinsamen Missionen eine tiefe Verbundenheit miteinander. Im Jahr 32 VSY wurden Obi-Wan und sein Meister als Vermittler zum – von der Handelsföderation blockierten – Planeten Naboo geschickt, wurden jedoch in eine kriegerische Auseinandersetzung verwickelt, an deren Ende ein schwerer Verlust für Obi-Wan stand.",
@@ -158,7 +166,9 @@ var clonewarsSteckbrief = [
   "Der Kyuzo Embo war ein zu Zeiten der Klonkriege lebender Kopfgeldjäger, der von dem Planeten Phatrong stammte. Wie in seiner Spezies üblich, wurde er schon im Kindesalter hart trainiert, um sich auf seine Zukunft vorzubereiten. Nach seiner Ausbildung zählte er zu einem der besten Kopfgeldjäger in der Galaxis und wurde für zahlreiche Aufträge angeheuert. Schon relativ früh schloss er sich der Bande der Zabrak-Kopfgeldjägerin Sugi an, die den Kyuzo-Krieger sehr schätzte. Mit den Mitgliedern der Gruppe erledigte er Aufträge in allen Teilen der Galaxis, so auch auf Felucia oder Nal Hutta. Dabei arbeitete er sowohl für kleine Farmerfamilien als auch für große Organisationen wie die Hutten oder die Separatisten.",
   "Hondo Ohnaka war zur Zeit der Klonkriege der Anführer einer Bande von Weequay-Piraten. Er nahm den Separatisten-Führer Dooku gefangen, um von der Republik ein Lösegeld zu erzwingen. Um noch mehr Geld in Form von Spice zu bekommen, nahm er auch die zur Prüfung der Wahrheit von Hondos Aussagen geschickten Anakin Skywalker und Obi-Wan Kenobi gefangen. Nach mehreren Fluchtversuchen scheiterte jedoch die Lösegeldübergabe, da sein Stellvertreter Turk Falso ihn verriet. ",
   "Der Cosianer Tera Sinube war ein Jedi-Meister, der seit der Ära der Hohen Republik dem Jedi-Orden diente. In seinen jungen Jahren stieg er innerhalb des Ordens schnell auf, bis er als Jedi-Meister Marshal des Jedi-Außenpostens auf Derra wurde. In älteren Jahren galt er durch seine Arbeit gegen das Verbrechen in der kriminellen Unterwelt von Coruscant als Meister dieses Faches. Dies kam ihm zugute, als er während der Klonkriege der Padawan Ahsoka Tano half, ihr gestohlenes Lichtschwert zu finden. ",
-  "Aayla Secura war eine Twi'lek-Jedi-Meisterin des Alten Jedi-Ordens, die zur Zeit der Klonkriege lebte. Nach ihrer Zeit als Padawan von Quinlan Vos kämpfte sie als Jedi-General in zahlreichen Schlachten der Klonkriege. Sie starb im Jahr 19 VSY im Zuge der Ausführung der Order 66. "
+  "Aayla Secura war eine Twi'lek-Jedi-Meisterin des Alten Jedi-Ordens, die zur Zeit der Klonkriege lebte. Nach ihrer Zeit als Padawan von Quinlan Vos kämpfte sie als Jedi-General in zahlreichen Schlachten der Klonkriege. Sie starb im Jahr 19 VSY im Zuge der Ausführung der Order 66. ",
+  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
+  "Yoda war ein Jedi-Meister des Alten Jedi-Ordens und führendes Mitglied im Hohen Rat der Jedi. Er war für die Ausbildung der Jünglinge im Jedi-Tempel mitverantwortlich und nahm Dooku als seinen Padawan an. Nach den Klonkriegen überlebte er die Order 66 und versteckte sich auf Dagobah vor dem Imperium. Nach 22 Jahren im Exil begann er Luke Skywalker auszubilden. Nachdem dieser 4 NSY nach Dagobah zurückkehrte, um seine abgebrochene Ausbildung zu beenden, starb Yoda im Alter von 900 Jahren an Altersschwäche und wurde eins mit der Macht. "
 ];
 
 var ära1Bilder = [
@@ -176,7 +186,9 @@ var ära1Bilder = [
   "https://lumiere-a.akamaihd.net/v1/images/image_3b5ee860.jpeg?region=195%2C0%2C1171%2C878&width=600",
   "https://lumiere-a.akamaihd.net/v1/images/databank_jangofett_01_169_884cefab.jpeg?region=0%2C0%2C1560%2C878&width=768",
   "https://lumiere-a.akamaihd.net/v1/images/Padme-Amidala_05d50c8a.jpeg?region=0%2C0%2C1536%2C864&width=768",
-  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif"
+  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
+  "https://i0.wp.com/starwarsinterviews.com/wp-content/uploads/2016/12/Watto.jpg?fit=1536%2C864&ssl=1",
+  "https://a2.tvspielfilm.de/imedia/5812/10225812,q1ecYDc39Cy2qkADbhdCK2Ta48SRUV0rii2I2SczJwKWZIFywA8meL0j3_do8365e3CcUUFEri0P6ZfSKTgb+A==.jpg"
 ];
 var ära2Bilder = [
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
@@ -214,11 +226,13 @@ var ära3Bilder = [
   "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine-darth-sidious-main_3d82ddaa.jpeg?region=164%2C0%2C953%2C536&width=768",
   "https://lumiere-a.akamaihd.net/v1/images/porg-main_16933d3b.jpeg?region=0%2C0%2C1560%2C878&width=768",
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
-  "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768"
+  "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768",
+  "https://assets.cdn.moviepilot.de/files/9ac8eb27bba7b6a0bfa1e28f1644dca257ca007c51326aecee66d70b3a71/fill/992/477/star-wars-the-rise-of-skywalker-c-3po.jpg"
 ];
 var clonewarsBilder = [
+  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
   "https://static3.srcdn.com/wordpress/wp-content/uploads/2020/05/Star-Wars-The-Clone-Wars-Season-Seven-7-Commander-Cody.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
-  "https://static.wikia.nocookie.net/jedipedia/images/f/f1/Bild06_-_Rex_Bericht2.jpeg/revision/latest?cb=20200520223752&path-prefix=de",
+  "https://static.wikia.nocookie.net/jedipedia/images/f/f1/Bild06_-_Rex_Bericht2.jpeg/revision/latest/top-crop/width/360/height/360?cb=20200520223752&path-prefix=de",
   "https://qph.fs.quoracdn.net/main-qimg-9e905f5acbb4d8180f0598001063cf6f",
   "https://outerrimnews.com/wp-content/uploads/2018/12/anakin-skywalker.jpg",
   "https://media.comicbook.com/2020/04/star-wars-clone-wars-movie-ahsoka-tano-1214557.jpeg?auto=webp&width=696&height=390&crop=696:390,smart",
@@ -237,7 +251,9 @@ var clonewarsBilder = [
   "https://lumiere-a.akamaihd.net/v1/images/databank_embo_01_169_60b97902.jpeg?region=0%2C49%2C1560%2C780",
   "https://lumiere-a.akamaihd.net/v1/images/image_cdeac55c.jpeg?height=877&width=1560&x=0&y=0",
   "https://lumiere-a.akamaihd.net/v1/images/databank_terasinube_01_169_73b2bf3d.jpeg?region=0%2C0%2C1560%2C780",
-  "https://cdn.jwplayer.com/v2/media/aXAEzVLw/poster.jpg?width=1920"
+  "https://cdn.jwplayer.com/v2/media/aXAEzVLw/poster.jpg?width=1920",
+  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
+  "https://i.ytimg.com/vi/5-fkESkmvu0/maxresdefault.jpg"
 ];
 
 var ära1Summe = [
@@ -255,9 +271,30 @@ var ära1Summe = [
   292,
   20,
   29,
-  303
+  303,
+  41,
+  23
 ];
-var ära2Summe = [12, 78, 75, 20, 23, 27, 46, 147, 296, 21, 30, 25, 303, 240];
+var ära2Summe = [
+  12,
+  78,
+  75,
+  20,
+  23,
+  27,
+  46,
+  147,
+  296,
+  21,
+  30,
+  25,
+  303,
+  240,
+  22,
+  21,
+  31,
+  13
+];
 var ära3Summe = [
   12,
   86,
@@ -274,9 +311,12 @@ var ära3Summe = [
   248,
   18,
   303,
-  240
+  240,
+  33,
+  21
 ];
 var clonewarsSumme = [
+  12,
   52,
   37,
   89,
@@ -297,7 +337,9 @@ var clonewarsSumme = [
   43,
   18,
   78,
-  87
+  87,
+  303,
+  240
 ];
 
 var glückwunsch = document.querySelector("#glückwunsch");
