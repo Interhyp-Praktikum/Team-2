@@ -125,6 +125,14 @@ div {
   font-family: STARWARS;
   text-align: center;
 }
+
+#error {
+  font-weight: 700;
+  text-align: center;
+  font-family: STARWARS;
+  font-size: 20px;
+}
+
 input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;

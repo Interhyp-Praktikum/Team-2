@@ -12,6 +12,8 @@ window.abschicken = function () {
   var frage9 = document.querySelector('input[name="frage9"]:checked');
   var frage10 = document.querySelector('input[name="frage10"]:checked');
 
+  var Fehler = document.querySelector("#error");
+
   if (
     frage1 &&
     frage2 &&
@@ -24,28 +26,33 @@ window.abschicken = function () {
     frage9 &&
     frage10
   ) {
-    var wert1 = frage1.value;
-    var wert2 = frage2.value;
-    var wert3 = frage3.value;
-    var wert4 = frage4.value;
-    var wert5 = frage5.value;
-    var wert6 = frage6.value;
-    var wert7 = frage7.value;
-    var wert8 = frage8.value;
-    var wert9 = frage9.value;
-    var wert10 = frage10.value;
+    var wert1 = parseInt(frage1.value, 10);
+    var wert2 = parseInt(frage2.value, 10);
+    var wert3 = parseInt(frage3.value, 10);
+    var wert4 = parseInt(frage4.value, 10);
+    var wert5 = parseInt(frage5.value, 10);
+    var wert6 = parseInt(frage6.value, 10);
+    var wert7 = parseInt(frage7.value, 10);
+    var wert8 = parseInt(frage8.value, 10);
+    var wert9 = parseInt(frage9.value, 10);
+    var wert10 = parseInt(frage10.value, 10);
 
-    localStorage.setItem("frage1", wert1);
-    localStorage.setItem("frage2", wert2);
-    localStorage.setItem("frage3", wert3);
-    localStorage.setItem("frage4", wert4);
-    localStorage.setItem("frage5", wert5);
-    localStorage.setItem("frage6", wert6);
-    localStorage.setItem("frage7", wert7);
-    localStorage.setItem("frage8", wert8);
-    localStorage.setItem("frage9", wert9);
-    localStorage.setItem("frage10", wert10);
+    var summe =
+      wert1 +
+      wert2 +
+      wert3 +
+      wert4 +
+      wert5 +
+      wert6 +
+      wert7 +
+      wert8 +
+      wert9 +
+      wert10;
+
+    localStorage.setItem("Summe", summe);
 
     document.location = "/ergebnis.html";
+  } else {
+    Fehler.innerText = "⚠️Wähle für jede Frage eine Antwort aus⚠️";
   }
 };
