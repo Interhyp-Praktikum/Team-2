@@ -201,33 +201,68 @@ var ergebnisCharacter = "";
 var ergebnisBild = "";
 var ergebnisSteckbrief = "";
 
+function zufälligerCharacterFürÄra(
+  summenListe,
+  characterListe,
+  bildListe,
+  steckbriefListe
+) {
+  var gefilterteSummen = summenListe.filter((äraSumme) => äraSumme <= summe);
+
+  var zufälligeZahl = Math.floor(Math.random() * gefilterteSummen.length);
+  var zufälligeSummeAusListe = gefilterteSummen[zufälligeZahl];
+  var zufälligePosition = summenListe.findIndex(
+    (listenEintrag) => listenEintrag === zufälligeSummeAusListe
+  );
+  ergebnisCharacter = characterListe[zufälligePosition];
+  ergebnisBild = bildListe[zufälligePosition];
+  ergebnisSteckbrief = steckbriefListe[zufälligePosition];
+}
+
+function characterFürÄra(
+  summenListe,
+  characterListe,
+  bildListe,
+  steckbriefListe
+) {
+  var positionAusListe = summenListe.findIndex(
+    (listenEintrag) => listenEintrag === summe
+  );
+  if (positionAusListe !== -1) {
+    ergebnisCharacter = characterListe[positionAusListe];
+    ergebnisBild = bildListe[positionAusListe];
+    ergebnisSteckbrief = steckbriefListe[positionAusListe];
+  } else {
+    if (summe <= 60) {
+      zufälligerCharacterFürÄra(
+        summenListe,
+        characterListe,
+        bildListe,
+        steckbriefListe
+      );
+    } else if (summe > 60 && summe <= 105) {
+      zufälligerCharacterFürÄra(
+        summenListe,
+        characterListe,
+        bildListe,
+        steckbriefListe
+      );
+    } else if (summe > 105 && summe <= 220) {
+      zufälligerCharacterFürÄra(
+        summenListe,
+        characterListe,
+        bildListe,
+        steckbriefListe
+      );
+    }
+  }
+}
 if (gespeicherteÄra === "Teil 1-3") {
-  var positionAusListe1 = ära1Summe.findIndex(
-    (listenEintrag) => listenEintrag === summe
-  );
-  if (positionAusListe1 !== -1) {
-    ergebnisCharacter = ära1Character[positionAusListe1];
-    ergebnisBild = ära1Bilder[positionAusListe1];
-    ergebnisSteckbrief = ära1Steckbrief[positionAusListe1];
-  }
+  characterFürÄra(ära1Summe, ära1Character, ära1Bilder, ära1Steckbrief);
 } else if (gespeicherteÄra === "Teil 4-6") {
-  var positionAusListe2 = ära2Summe.findIndex(
-    (listenEintrag) => listenEintrag === summe
-  );
-  if (positionAusListe2 !== -1) {
-    ergebnisCharacter = ära2Character[positionAusListe2];
-    ergebnisBild = ära2Bilder[positionAusListe2];
-    ergebnisSteckbrief = ära2Steckbrief[positionAusListe2];
-  }
+  characterFürÄra(ära2Summe, ära2Character, ära2Bilder, ära2Steckbrief);
 } else if (gespeicherteÄra === "Teil 7-9") {
-  var positionAusListe3 = ära3Summe.findIndex(
-    (listenEintrag) => listenEintrag === summe
-  );
-  if (positionAusListe3 !== -1) {
-    ergebnisCharacter = ära3Character[positionAusListe3];
-    ergebnisBild = ära3Bilder[positionAusListe3];
-    ergebnisSteckbrief = ära3Steckbrief[positionAusListe3];
-  }
+  characterFürÄra(ära3Summe, ära3Character, ära3Bilder, ära3Steckbrief);
 }
 
 if (ergebnisCharacter === "Rick Astley") {
