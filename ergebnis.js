@@ -30,7 +30,8 @@ var ära2Character = [
   "Boba Fett",
   "R2D2",
   "Sturmtruppler",
-  "Rick Astley"
+  "Rick Astley",
+  "Yoda"
 ];
 
 var ära3Character = [
@@ -48,7 +49,8 @@ var ära3Character = [
   "Supreme Leader Snoke",
   "Darth Sidious",
   "Porg",
-  "Rick Astley"
+  "Rick Astley",
+  "Yoda"
 ];
 var ära1Steckbrief = [
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
@@ -65,7 +67,8 @@ var ära1Steckbrief = [
   "Darth Sidious, geboren als Sheev Palpatine und auch einfach als Imperator bekannt, war ein männlicher Dunkler Lord der Sith und Imperator des Galaktischen Imperiums, der von 19 BBY bis 4 ABY regierte. Der geheimnisvolle Sith-Lord, der im republikanischen Senat als Senator von Naboo an die Macht kam, pflegte zwei Identitäten, Sidious und Palpatine, und nutzte beide, um seine politische Karriere voranzutreiben. In den Klonkriegen inszenierte er den Untergang der Galaktischen Republik und des Jedi-Ordens und errichtete dann seine Herrschaft über die Galaxis, die bis zu seinem Tod in der Schlacht von Endor andauerte. Die dunkle Seite der Macht ließ jedoch Kräfte entstehen, die es dem Imperator ermöglichten, aus dem Grab zurückzukehren.",
   "Jango Fett war ein berühmter männlicher Mandalorianer-Kopfgeldjäger und die Klonvorlage der Großen Armee der Republik. In den letzten Jahren der Galaktischen Republik war Fett als der beste Kopfgeldjäger der Galaxis bekannt und beherrschte sowohl die Treffsicherheit als auch den waffenlosen Kampf. Die Mandalorianer-Rüstung, die er trug, war mit verschiedenen Waffen und Gadgets ausgestattet, darunter ein Flammenwerfer, zwei WESTAR-34-Blasterpistolen und ein Jetpack. Sein persönliches Raumschiff war das Patrouillen- und Angriffsschiff Slave I der Firespray-31-Klasse.",
   "Padmé Amidala Naberrie war eine menschliche Senatorin, die in den letzten Jahren der Galaktischen Republik das Volk von Naboo vertrat. Vor ihrer Karriere im Galaktischen Senat war Amidala die gewählte Herrscherin des Königshauses von Naboo. Als politische Idealistin setzte sie sich für den Erhalt der Demokratie und eine friedliche Beendigung der Klonkriege ein. Doch ihre heimliche Heirat mit dem Jedi-Ritter Anakin Skywalker sollte die Zukunft der Galaxis noch Jahrzehnte später nachhaltig beeinflussen.",
-  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird."
+  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
+  "Yoda, ein machtsensitives männliches Wesen, das einer geheimnisvollen Spezies angehört, war ein legendärer Jedi-Meister, der den Aufstieg und Fall der Galaktischen Republik miterlebte, gefolgt vom Aufstieg des Galaktischen Imperiums. Von kleiner Statur, aber verehrt für seine Weisheit und Macht, bildete Yoda Generationen von Jedi aus und diente schließlich als Großmeister des Jedi-Ordens. Nachdem er neun Jahrhunderte galaktischer Geschichte erlebt hatte, spielte er eine wichtige Rolle in den Klonkriegen, bei der Wiedergeburt der Jedi durch Luke Skywalker und bei der Entschlüsselung des Pfades zur Unsterblichkeit."
 ];
 var ära2Steckbrief = [
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird. ",
@@ -80,7 +83,8 @@ var ära2Steckbrief = [
   "Boba Fett war ein männlicher menschlicher Verbrecher und ehemaliger Kopfgeldjäger, dessen Karriere sich über Jahrzehnte erstreckte, vom Fall der Galaktischen Republik bis zum Ende der Herrschaft des Galaktischen Imperiums. Ursprünglich trug er den Codenamen Alpha und war ein unveränderter Klon des berühmten mandalorianischen Kopfgeldjägers Jango Fett, der den Jungen als seinen Sohn aufzog. Boba eiferte seinem Vater und genetischen Spender nach, indem er eine maßgeschneiderte mandalorianische Rüstung trug. Sein persönliches Raumschiff war die Slave I, ein Patrouillen- und Angriffsraumschiff der Firespray-31-Klasse, das einst Jango gehörte. Von klein auf in Kampf und kriegerischen Fähigkeiten geschult, war Fett während der Herrschaft von Imperator Palpatine einer der gefürchtetsten Kopfgeldjäger der Galaxis. Im Laufe seiner Karriere, die sowohl Aufträge für das Imperium als auch für die kriminelle Unterwelt umfasste, wurde er zu einer Legende. ",
   "R2-D2, ausgesprochen Artoo-Detoo und oft auch als R2 (Artoo) bezeichnet, war ein Astromech-Droide der R2-Serie, der von Industrial Automaton mit männlicher Programmierung hergestellt wurde. R2-D2 war ein kluger, mutiger Droide, der im Laufe seines Lebens einer Vielzahl von Meistern diente. Sein Gedächtnis wurde nie vollständig gelöscht (abgesehen von einer teilweisen Löschung ausgewählter Informationen durch Cad Bane während der Geiselkrise im Senat), und er erhielt auch nie eine neue Programmierung, was zu einer abenteuerlichen und unabhängigen Einstellung führte. Da er sich oft in entscheidenden Momenten der galaktischen Geschichte wiederfindet, haben sein Mut und sein Einfallsreichtum die Galaxie bei zahlreichen Gelegenheiten gerettet.",
   "Sturmtruppen (ST) - in der frühen imperialen Ära als TK-Sturmtruppen und als TK-Truppen bekannt, nach der Schlacht von Endor als Reststurmtruppen und umgangssprachlich als 'Eimerköpfe' bezeichnet - waren die Infanteriesoldaten des Galaktischen Imperiums. Die Mitglieder des Stormtrooper-Korps der Imperialen Armee dienten an der Front als Eliteschocktruppen, und ihre Loyalität gegenüber dem Imperium war aufgrund ihrer Ausbildung absolut. Die Rüstung der Sturmtruppen bestand aus weißen Plastoidplatten über einem schwarzen Körperhandschuh, und ihre Standardwaffe war das E-11-Blastergewehr. Neben den Standardtroopern gab es verschiedene Spezialeinheiten wie Späher und Snowtrooper, die die Reihen des Stormtrooper Corps bildeten.",
-  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird. "
+  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird. ",
+  "Yoda, ein machtsensitives männliches Wesen, das einer geheimnisvollen Spezies angehört, war ein legendärer Jedi-Meister, der den Aufstieg und Fall der Galaktischen Republik miterlebte, gefolgt vom Aufstieg des Galaktischen Imperiums. Von kleiner Statur, aber verehrt für seine Weisheit und Macht, bildete Yoda Generationen von Jedi aus und diente schließlich als Großmeister des Jedi-Ordens. Nachdem er neun Jahrhunderte galaktischer Geschichte erlebt hatte, spielte er eine wichtige Rolle in den Klonkriegen, bei der Wiedergeburt der Jedi durch Luke Skywalker und bei der Entschlüsselung des Pfades zur Unsterblichkeit."
 ];
 
 var ära3Steckbrief = [
@@ -131,7 +135,8 @@ var ära2Bilder = [
   "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606&width=768",
   "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536&width=768",
   "https://lumiere-a.akamaihd.net/v1/images/ss-remnant-stormtroopers_b9788ca2.jpeg?region=272%2C183%2C1084%2C609&width=768",
-  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif"
+  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
+  "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768"
 ];
 var ära3Bilder = [
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
@@ -148,7 +153,8 @@ var ära3Bilder = [
   "https://lumiere-a.akamaihd.net/v1/images/ep8-ff-006360_c95dace6.jpeg?region=0%2C0%2C1280%2C720&width=768",
   "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine-darth-sidious-main_3d82ddaa.jpeg?region=164%2C0%2C953%2C536&width=768",
   "https://lumiere-a.akamaihd.net/v1/images/porg-main_16933d3b.jpeg?region=0%2C0%2C1560%2C878&width=768",
-  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif"
+  "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
+  "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768"
 ];
 
 var ära1Summe = [
@@ -168,7 +174,7 @@ var ära1Summe = [
   29,
   303
 ];
-var ära2Summe = [12, 78, 75, 20, 23, 27, 46, 147, 296, 21, 30, 25, 303];
+var ära2Summe = [12, 78, 75, 20, 23, 27, 46, 147, 296, 21, 30, 25, 303, 240];
 var ära3Summe = [
   12,
   86,
@@ -184,7 +190,8 @@ var ära3Summe = [
   294,
   248,
   18,
-  303
+  303,
+  240
 ];
 
 var glückwunsch = document.querySelector("#glückwunsch");
@@ -205,9 +212,13 @@ function zufälligerCharacterFürÄra(
   summenListe,
   characterListe,
   bildListe,
-  steckbriefListe
+  steckbriefListe,
+  min,
+  max
 ) {
-  var gefilterteSummen = summenListe.filter((äraSumme) => äraSumme <= summe);
+  var gefilterteSummen = summenListe.filter(
+    (äraSumme) => äraSumme >= min && äraSumme <= max
+  );
 
   var zufälligeZahl = Math.floor(Math.random() * gefilterteSummen.length);
   var zufälligeSummeAusListe = gefilterteSummen[zufälligeZahl];
@@ -238,21 +249,36 @@ function characterFürÄra(
         summenListe,
         characterListe,
         bildListe,
-        steckbriefListe
+        steckbriefListe,
+        13,
+        60
       );
     } else if (summe > 60 && summe <= 105) {
       zufälligerCharacterFürÄra(
         summenListe,
         characterListe,
         bildListe,
-        steckbriefListe
+        steckbriefListe,
+        60,
+        105
       );
     } else if (summe > 105 && summe <= 220) {
       zufälligerCharacterFürÄra(
         summenListe,
         characterListe,
         bildListe,
-        steckbriefListe
+        steckbriefListe,
+        105,
+        220
+      );
+    } else if (summe > 220 && summe <= 302) {
+      zufälligerCharacterFürÄra(
+        summenListe,
+        characterListe,
+        bildListe,
+        steckbriefListe,
+        220,
+        302
       );
     }
   }
