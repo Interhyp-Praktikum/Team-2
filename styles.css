@@ -161,3 +161,27 @@ input[type="radio"]:checked::before {
   content: "\02143";
   transform: rotate(40deg);
 }
+.steckbrief {
+  min-height: 100px;
+  min-width: 280px;
+  border-radius: 10px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  font-family: STARWARS;
+  line-height: 2;
+}
+#characterBild {
+  border-radius: 8px;
+}
+#character {
+  color: rgb(210, 165, 0);
+  font-family: STARWARS;
+  text-align: center;
+}
+#glückwunsch {
+  text-align: center;
+  font-family: STARWARS;
+}

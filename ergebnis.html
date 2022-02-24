@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ergebnisee</title>
+    <title>Ergebnisse</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -11,15 +11,16 @@
       <!--hier kannst du deine HTML Tags eintragen-->
       <!--eine Übersicht über alle Tags gibt es hier: https://wiki.selfhtml.org/wiki/HTML/Elemente -->
       <h1 class="headline">Ergebnis</h1>
-      <h2 id="glückwunsch">Lädt...</h2>
-      <h3 id="character">Lädt...</h3>
-      <img id="characterBild" width="400" src="font/Yoda.png">
+      <h3 id="glückwunsch">Lädt...</h3>
+      <h2 id="character">Lädt...</h2>
+      <img id="characterBild" width="100%" src="font/Yoda.png">
     </img>
+    <br/>
       <div>
-        <p id="steckbrief">...
+        <p id="steckbrief" class="steckbrief"style="border: 2px solid rgb(219,160,0)">...
         </p>
       </div>
-
+      <audio hidden="true" id="RickAstley" src="/font/Never Gonna Give You Up Original.mp3" controls></audio>
     </div>
 
     <script src="ergebnis.js"></script>
