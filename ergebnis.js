@@ -8,7 +8,7 @@ var ära1Character = [
   "Kit Fisto",
   "Yoda",
   "Count Dooku",
-  "Asaj Ventress",
+  "Asajj Ventress",
   "General Grievous",
   "Darth Maul",
   "Darth Sidious",
@@ -31,7 +31,11 @@ var ära2Character = [
   "R2D2",
   "Sturmtruppler",
   "Rick Astley",
-  "Yoda"
+  "Yoda",
+  "Lando Calrissian",
+  "Rancor",
+  "Tuskenräuber",
+  "Jawa"
 ];
 
 var ära3Character = [
@@ -50,7 +54,31 @@ var ära3Character = [
   "Darth Sidious",
   "Porg",
   "Rick Astley",
-  "Yoda"
+  "Yoda",
+  "C3PO"
+];
+var clonewarsCharacter = [
+  "Cody",
+  "Rex",
+  "Obi Wan Kenobi",
+  "Anikan Skywalker",
+  "Ahsoka Tano",
+  "General Grievous",
+  "Count Dooku",
+  "Kanzler Palpatine",
+  "Padme Amidala",
+  "Jabba the Hut",
+  "Nute Gunray",
+  "Cad Bane",
+  "Savage Opress",
+  "Darth Maul",
+  "Asajj Ventress",
+  "Mutter Talzin",
+  "Mace Windu",
+  "Embo",
+  "Hondo",
+  "Tera Sinube",
+  "Aayla"
 ];
 var ära1Steckbrief = [
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
@@ -84,7 +112,11 @@ var ära2Steckbrief = [
   "R2-D2, ausgesprochen Artoo-Detoo und oft auch als R2 (Artoo) bezeichnet, war ein Astromech-Droide der R2-Serie, der von Industrial Automaton mit männlicher Programmierung hergestellt wurde. R2-D2 war ein kluger, mutiger Droide, der im Laufe seines Lebens einer Vielzahl von Meistern diente. Sein Gedächtnis wurde nie vollständig gelöscht (abgesehen von einer teilweisen Löschung ausgewählter Informationen durch Cad Bane während der Geiselkrise im Senat), und er erhielt auch nie eine neue Programmierung, was zu einer abenteuerlichen und unabhängigen Einstellung führte. Da er sich oft in entscheidenden Momenten der galaktischen Geschichte wiederfindet, haben sein Mut und sein Einfallsreichtum die Galaxie bei zahlreichen Gelegenheiten gerettet.",
   "Sturmtruppen (ST) - in der frühen imperialen Ära als TK-Sturmtruppen und als TK-Truppen bekannt, nach der Schlacht von Endor als Reststurmtruppen und umgangssprachlich als 'Eimerköpfe' bezeichnet - waren die Infanteriesoldaten des Galaktischen Imperiums. Die Mitglieder des Stormtrooper-Korps der Imperialen Armee dienten an der Front als Eliteschocktruppen, und ihre Loyalität gegenüber dem Imperium war aufgrund ihrer Ausbildung absolut. Die Rüstung der Sturmtruppen bestand aus weißen Plastoidplatten über einem schwarzen Körperhandschuh, und ihre Standardwaffe war das E-11-Blastergewehr. Neben den Standardtroopern gab es verschiedene Spezialeinheiten wie Späher und Snowtrooper, die die Reihen des Stormtrooper Corps bildeten.",
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird. ",
-  "Yoda, ein machtsensitives männliches Wesen, das einer geheimnisvollen Spezies angehört, war ein legendärer Jedi-Meister, der den Aufstieg und Fall der Galaktischen Republik miterlebte, gefolgt vom Aufstieg des Galaktischen Imperiums. Von kleiner Statur, aber verehrt für seine Weisheit und Macht, bildete Yoda Generationen von Jedi aus und diente schließlich als Großmeister des Jedi-Ordens. Nachdem er neun Jahrhunderte galaktischer Geschichte erlebt hatte, spielte er eine wichtige Rolle in den Klonkriegen, bei der Wiedergeburt der Jedi durch Luke Skywalker und bei der Entschlüsselung des Pfades zur Unsterblichkeit."
+  "Yoda, ein machtsensitives männliches Wesen, das einer geheimnisvollen Spezies angehört, war ein legendärer Jedi-Meister, der den Aufstieg und Fall der Galaktischen Republik miterlebte, gefolgt vom Aufstieg des Galaktischen Imperiums. Von kleiner Statur, aber verehrt für seine Weisheit und Macht, bildete Yoda Generationen von Jedi aus und diente schließlich als Großmeister des Jedi-Ordens. Nachdem er neun Jahrhunderte galaktischer Geschichte erlebt hatte, spielte er eine wichtige Rolle in den Klonkriegen, bei der Wiedergeburt der Jedi durch Luke Skywalker und bei der Entschlüsselung des Pfades zur Unsterblichkeit.",
+  "Landonis Balthazar Calrissian, den meisten als Lando bekannt, war ein professioneller Glücksspieler, ideenreicher Geschäftsmann und General der Rebellenallianz und Neuen Republik. Seine Karriere begann früh als Spieler teilweise riskanter Glücksspiele. Mit dieser Beschäftigung konnte Lando den Titel des Baron-Administrators der Wolkenstadt, einer Tibanna-Gas-Mine und Vergnügungsstätte auf dem Planeten Bespin, erlangen, bevor er sich 3 NSY dem Freiheitskampf in der Galaxis anschloss. ",
+  "Rancor ist der Name einer gigantischen allesfressenden Reptil-Spezies, welche als Raubtierbestie in der ganzen Galaxis gefürchtet war. Vertreter der Spezies können bis zu 5 Meter groß werden und über 1500 Kilogramm wiegen. Obwohl es sich bei den Kreaturen um keine Haustiere handelte, war der huttische Verbrecherboss Jabba während des Galaktischen Bürgerkriegs im Besitz des Rancors Pateesa, welchem er regelmäßig als Bestrafung verschiedene Individuen zum Fraß anbot.",
+  "Die Tusken-Räuber, auch Sandleute genannt, sind eine humanoide Nomaden[3]-Spezies vom Wüstenplaneten Tatooine. Sie galten als besonders territorial und xenophob, weswegen sie Durchreisende und andere Bewohner der unwirtlichen Welt regelmäßig terrorisierten.",
+  "Die Jawas sind eine kollektive Spezies von kleinen, intelligenten Plünderern.Die Jawas sind in der Regel nicht größer als etwa 1 Meter und tragen selbstgemachte, braune Umhänge mit Kapuzen. Sie besitzen leuchtende gelbe und orangene Augen und bewegen sich mithilfe eines Sandkriechers durch Wüstenregionen von Planeten wie Tatooine und Arvala-7 fort. Die Jawas sammeln und stehlen überwiegend Schrottteile und verkaufen diese weiter."
 ];
 
 var ära3Steckbrief = [
@@ -102,7 +134,31 @@ var ära3Steckbrief = [
   "Supreme Leader Snoke: Snoke war ein machtsensitiver, humanoider, genetisch gestrandeter Mann, der die Erste Ordnung während der Ära der Neuen Republik als Oberster Führer regierte. Möglicherweise war sich Snoke seiner wahren Natur nicht bewusst. Er war ein künstliches genetisches Konstrukt, das vom Dunklen Lord der Sith und Galaktischen Imperator Darth Sidious und seinem Sith-Ewigkeits-Kult während der Herrschaft des Galaktischen Imperiums auf dem Planeten Exegol geschaffen wurde. Nach Sidious' Wiederauferstehung war Snokes Körper für das Ziel des Sith-Lords, die Macht wiederherzustellen, nicht mehr von Nutzen und wurde stattdessen von Sidious wegen seiner natürlichen Machtempfindlichkeit als Stellvertreter benutzt, den er für seine Kontingenz manipulieren konnte. Obwohl Snoke einen eigenständigen Verstand besaß, wurde er von seinem Schöpfer aus der Ferne unbewusst beeinflusst.",
   "Palpatine, auch bekannt unter seinem Sith-Namen Darth Sidious, war ein machtsensitiver Mensch, der als letzter Oberster Kanzler der Galaktischen Republik und als erster Imperator des Galaktischen Imperiums diente. Er war ein Dunkler Lord der Sith im Orden der Sith-Lords, der als der erfolgreichste aller Zeiten in die Geschichte einging. Seine Taten führten zum Sturz der alten Republik und des edlen Jedi-Ordens von innen heraus. Palpatine, der für seine sadistischen und eigennützigen Absichten ebenso bekannt war wie für seine Fähigkeit, diese zu verbergen, beeinflusste die Galaxis vielleicht mehr als jede andere Einzelperson, und es ist wahrscheinlich, dass sein Einfluss auf die Geschichte, im Guten wie im Schlechten, unermesslich war.",
   "Porgs waren eine im Meer lebende Vogelart ohne Schnabel. Sie waren auf dem Planeten Ahch-To beheimatet, wo Jedi-Meister Luke Skywalker in den Jahren vor der Schlacht von Crait im Exil lebte.",
-  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird. "
+  "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird. ",
+  "C-3PO (kurz: 3PO) war ein Protokolldroide, der zusammen mit seinem Weggefährten R2-D2 einige der wichtigsten Ereignisse der galaktischen Geschichte miterlebt hat. Ungeachtet seiner von vielen anderen Personen als umständlich empfundenen Art wurde C-3PO zu einem Helden mehrerer galaktischer Organisationen. "
+];
+var clonewarsSteckbrief = [
+  "Klon-Kommandant CC-2224, genannt Cody, war ein Offizier innerhalb der Großen Armee der Republik. Er befehligte das 7. Sky Corps und das 212. Angriffsbataillon der republikanischen Armee. Cody wurde oft Jedi-General Obi-Wan Kenobi unterstellt, in der ersten Hälfte des Klonkrieges zusammen mit Hauptmann CT-7567 „Rex“ – der mit der Zeit ein Freund von ihm wurde. Während der Schlacht um Christophsis deckte er den Verrat des Klonkriegers Slick auf. Danach sorgte er dafür, dass die Separatisten den Planeten nicht übernehmen konnten. Nach der Schlacht von Teth führte er mit Rex mehrere Inspektionen durch, unter anderem im Rishi-System, wo sie in einen Hinterhalt von Kommandodroiden gerieten. Diese hatten zu dem Zeitpunkt den Mond schon besetzt gehalten. Das Klon-Bataillon eroberte ihn zurück und hielt die Stellung, bis sich Hevy opferte und die Basis zerstörte. Das ermöglichte den Klonsoldaten, die republikanische Flotte zu alarmieren und damit einen Präventivschlag auf Kamino zu verhindern. Nach Einsätzen auf Ryloth, der Schwarzstand-Station und Geonosis war er außerdem auch bei der Rettung von Eeth Koth über Saleucami beteiligt. Zusammen mit Rex, Echo und Fives half er um das Jahr 21 VSY bei einem Überraschungsangriff der Separatisten bei der Verteidigung seiner Heimatwelt, Kamino. Er führte zum Ende des Krieges auf Utapau die Order 66 gegen General Kenobi aus, der davon völlig überrascht wurde.",
+  "CT-7567, auch als Rex bekannt, war ein Klonkrieger und Captain, später Commander der Großen Armee der Republik in den Klonkriegen. Er wurde dem Jedi-Ritter Anakin Skywalker zugeteilt und führte mit diesem die 501. Legion an. Später kämpfte Rex auch zusammen mit Anakins Padawan Ahsoka Tano. Im Laufe der Klonkriege nahm er mit der 501. Legion an vielen bedeutenden Schlachten teil. Nachdem die Klonkriege durch die Korrumpierung der Republik durch Sheev Palpatine geendet hatten und er von Ahsoka Tano von seinem Inhibitor-Chip befreit worden war, führte er ein Leben abseits der Schlachtfelder auf Seelos zusammen mit zweien seiner Klon-Brüder. Nachdem die Spectres ihn für das Rebellen-Netzwerk anwarben, wurde er Teil der Phönix-Flotte und später auch der Rebellen-Allianz. Als aktiver Teil der Rebellion nahm er auch an der Schlacht von Endor unter dem Kommando von Han Solo teil, um bei der Zerstörung des Schildgenerators des Zweiten Todessterns zu helfen.",
+  "Obi-Wan Kenobi, oder später Ben Kenobi, war ein menschlicher Jedi-Meister des Alten Ordens, der im Laufe seines Lebens die Geschichte der Galaxis und des Jedi-Ordens maßgeblich prägte. Nach seiner Ausbildung als Jüngling nahm Qui-Gon Jinn den jungen Obi-Wan als Padawan an, und die beiden entwickelten in vielen Jahren und auf vielen gemeinsamen Missionen eine tiefe Verbundenheit miteinander. Im Jahr 32 VSY wurden Obi-Wan und sein Meister als Vermittler zum – von der Handelsföderation blockierten – Planeten Naboo geschickt, wurden jedoch in eine kriegerische Auseinandersetzung verwickelt, an deren Ende ein schwerer Verlust für Obi-Wan stand.",
+  "Anakin Skywalker, später unter dem Namen Darth Vader bekannt, war der Sohn von Shmi Skywalker, der Ehemann von Padmé Amidala und der Vater von Luke Skywalker und Leia Organa. Entdeckt wurde er von Qui-Gon Jinn auf dem Wüstenplaneten Tatooine, und nach dessen Tod wurde er von Obi-Wan Kenobi zum Jedi ausgebildet. Er galt als der Auserwählte, der nach einer alten Prophezeiung der Macht das Gleichgewicht zurückgeben würde. In den Klonkriegen war er einer der geschicktesten und berühmtesten Jedi-Ritter, einer der besten Piloten der Galaxis sowie ein Jedi-General der Klonkrieger, welcher in der gesamten Galaxis als Held galt.",
+  "Ahsoka Tano, von ihrem Meister Anakin Skywalker auch Snips genannt, war eine Jedi des Alten Ordens, die zur Zeit der Klonkriege lebte. Sie wurde vom Jedi-Meister Plo Koon auf Shili entdeckt und in den Jedi-Tempel gebracht. Im Jahr 22 VSY wurde sie Anakin Skywalker in der Schlacht um Christophsis zugeteilt und begleitete ihn kurz darauf auch nach Teth, um Rotta, den Sohn des huttischen Verbrecherlords Jabba, aus der Gefangenschaft der Konföderation unabhängiger Systeme zu befreien. Im Zuge des Krieges war sie oft an der Seite ihres Meisters und des Klonkriegers CT-7567 „Rex“ im Einsatz. Dabei war sie an der Überführung von Nute Gunray nach Coruscant beteiligt, verlor in der Schlacht um Ryloth eine Jägerstaffel, kämpfte über Devaron gegen den Kopfgeldjäger Cad Bane und erlangte durch die Hilfe von Tera Sinube ihr Lichtschwert zurück, nachdem es in der Unterwelt gestohlen worden war.",
+  "Der Kaleesh-Cyborg Grievous war ein großer Kriegsherr und General der großen Droidenarmee der Konföderation unabhängiger Systeme zu Zeiten der Klonkriege. Im Laufe des Krieges verwendete Grievous mehrere Flaggschiffe, darunter die Malevolence und die Unsichtbare Hand. Viele seiner Flaggschiffe wurden zerstört - so auch die Skytop-Station. Grievous hatte auf dem Mond Vassek 3 ein Geheimversteck, in dem sein Wartungsdroide EV-A4-D und sein Roggwart Gor lebten. Er hatte sogar seine eigene Elite, die IG-100-MagnaWachen.",
+  "Graf Dooku von Serenno war ein menschlicher Jedi-Meister des Alten Jedi-Ordens zur Zeit der Galaktischen Republik. Nach einem langjährigen Studium im Jedi-Tempel wurde er selbst in den Rang eines Jedi-Meisters erhoben. Als Mentor bildete er Qui-Gon Jinn zum Jedi aus, wobei er dabei stets seinen eigenen Ideologien folgte. Oftmals betonte er, dass der Jedi-Orden dem immer korrupter werdenden Galaktischem Senat zu nahe stand. Ohne sich damit abfinden zu wollen, dass seine Anstrengungen gegen eine solche Entwicklung erfolglos blieben, wandte er sich freiwillig von den Jedi ab.",
+  "Palpatine, auch bekannt unter seinem Sith-Namen Darth Sidious, war Senator des Planeten Naboo, Oberster Kanzler der Galaktischen Republik und später Imperator des Galaktischen Imperiums. Sein unaufhaltsamer Aufstieg zur Macht, die damit verbundene Zerschlagung der Galaktischen Republik und die Auflösung des Jedi-Ordens führte die Galaxis in eine jahrzehntelange Dunkelheit. Tatsächlich profitierte Palpatine von politischen Umwälzungen, die er selbst inszenierte.",
+  "Padmé Amidala, geboren als Padmé Naberrie, war die Frau von Anakin Skywalker und die Mutter von Luke Skywalker und Leia Organa. Sie wurde bereits mit 14 Jahren zur Königin der Naboo ernannt. Ab dem Zeitpunkt ihrer Amtszeit trug sie den Namen „Amidala“ und erhielt den königlichen Titel. Nach acht Jahren trat sie vom Amt als Königin zurück, woraufhin ihr von Jamillia, der neuen Königin, angeboten wurde, Naboo als Senatorin im Senat zu vertreten. Sie starb im Jahr 19 VSY nach einer Zwillingsgeburt.",
+  "Jabba Desilijic Tiure, besser bekannt als Jabba der Hutte, war der Anführer einer Verbrecherorganisation, die ihren Sitz auf dem Wüstenplaneten Tatooine hatte. Er gehörte der Spezies der Hutts an, die sich besonders durch ihre schneckenartige Körperform und ihre Fettleibigkeit auszeichnete.",
+  "Nute Gunray war der Vizekönig der Handelsföderation zur Zeit der Klonkriege. Er war ein Neimoidianer und Anführer des Neimoidianischen Innenkreises.",
+  "Cad Bane war ein Duros-Kopfgeldjäger, der zur Zeit der Klonkriege lebte. Im Auftrag der Konföderation unabhängiger Systeme stahl er ein Holocron, nahm den Jedi-Meister Bolla Ropal gefangen und entführte mit dessen Kyber-Speicherkristall machtsensitive Kinder, bevor er von einigen Jedi aufgehalten wurde. Später nahm er mit anderen Kopfgeldjägern und den gestohlenen Plänen des Senatsgebäudes einige Senatoren als Geisel, um die Freilassung von Ziro Desilijic Tiure zu erzwingen. Nach der Flucht des Hutts musste sich Bane auf Teth erneut den Jedi stellen. Außerdem leitete er eine Gruppe Kopfgeldjäger bei einer Operation zur Gefangennahme von Kanzler Palpatine.",
+  "Savage Opress war ein während der Klonkriege lebender, Dathomirianer und Stammesmitglied der Nachtbrüder auf dem Sumpfplaneten Dathomir. Nach der Erfüllung dreier Prüfungen sollte er eine bedeutungsvolle Rolle in Asajj Ventress’ Streben nach Rache an Count Dooku spielen und lebte daher eine obskure Verwandlung durch, die ihn vollends zum Diener ihres Vorhabens machte. Durch die Verwüstung eines republikanischen Außenpostens erweckte er Dookus Interesse, der ihn fortan in den Künsten der Dunklen Seite der Macht unterwies, bis nach einem fehlgeschlagenen Auftrag auf Toydaria die Zeit für Ventress’ Rache gekommen war. Zu zweit attackierten sie den übermächtigen Feind, allerdings wendete Ventress sich infolge des Kampfes gegen ihn, sodass er Zuflucht bei Mutter Talzin auf Dathomir suchte. Sie schickte ihn mit einem Talisman und dem Ziel, seinen alten Clanbruder Darth Maul aufzusuchen in einen entlegenen Winkel der Galaxis, um von diesem zu lernen. Die Suche verlief schließlich erfolgreich, als er auf dem Müllplaneten Lotho Minor Maul ausfindig machte und ihn überzeugte, sich zusammenzutun und Rache an ihren Feinden zu nehmen.",
+  "Maul, zwischenzeitlich Darth Maul genannt, war ein dathomirischer Zabrak und Sith-Lord, der jedoch nach seinem vermeintlichen Tod von seinem Meister Darth Sidious verstoßen wurde und sich anschließend vom Weg der Sith abwandte, um ein Verbrecherlord der kriminellen Unterwelt zu werden. Ursprünglich war er ein dathomirischer Nachtbruder und wurde schon damals Maul genannt. ",
+  "Asajj Ventress war eine Dunkle Jedi, die sich der Konföderation unabhängiger Systeme anschloss. Zur Zeit der Klonkriege diente sie Graf Dooku, doch ihr Wunsch, seine Schülerin zu werden, erfüllte sich niemals. Sie machte den Jedi Obi-Wan Kenobi für ihr Scheitern verantwortlich und sah es als ihre Lebensaufgabe, ihn zu jagen und töten. Gegen Ende des Krieges zog sie sich ins Exil zurück. Nachdem sie zu ihrem Clan, den Nachtschwestern, zurückgekehrt war, versuchte sie ein drittes Mal, ein Attentat auf Dooku zu verüben, welches allerdings wieder scheiterte, weil General Grievous die Nachtschwestern angriff. Später wurde sie eine Kopfgeldjägerin und verübte mit Quinlan Vos ein weiteres Attentat auf Dooku, welches jedoch ebenfalls scheiterte. ",
+  "Mutter Talzin, vom Frangawl-Kult auch Große Mutter genannt, war eine Nachtschwester vom Planeten Dathomir, die vor und während der Klonkriege dort lebte. Während sich die Galaktische Republik und die Konföderation unabhängiger Systeme in der gesamten Galaxis Kämpfe lieferten, nahm sie die von Dathomir stammende Asajj Ventress auf, um ihr bei der Rache an Graf Dooku zu helfen, der die Dunkle Jedi während der Schlacht im Sullust-System verraten hatte. Sie bot Dooku dazu den Zabrak-Krieger Savage Opress – Darth Mauls Bruder – als neuen Attentäter an. Als dieser zusammen mit Ventress gegen Dooku kämpfen sollte, verriet er sie und wurde schließlich von Talzin auf die Suche nach seinem Bruder geschickt, der laut ihr noch lebte. ",
+  "Mace Windu war einer der führenden Mitglieder des Alten Jedi-Ordens zur Zeit der Klonkriege. Er war Jedi-Meister und ein hervorragender Schwertkämpfer, der sogar den Lichtschwertstil Vaapad entwickelte, dessen Aggressivität der Dunklen Seite in besonderem Maße nahe stand. Mace Windu galt als einer der besten Lichtschwertkämpfer der Alten Republik. In der Schlacht von Geonosis enthauptete er den Kopfgeldjäger Jango Fett. Gegen Ende des Krieges im Jahr 19 VSY wurde Mace Windu von Anakin Skywalker daran gehindert, den entwaffneten verräterischen Kanzler Palpatine zu töten. Schließlich wurde er von Palpatine selbst getötet. ",
+  "Der Kyuzo Embo war ein zu Zeiten der Klonkriege lebender Kopfgeldjäger, der von dem Planeten Phatrong stammte. Wie in seiner Spezies üblich, wurde er schon im Kindesalter hart trainiert, um sich auf seine Zukunft vorzubereiten. Nach seiner Ausbildung zählte er zu einem der besten Kopfgeldjäger in der Galaxis und wurde für zahlreiche Aufträge angeheuert. Schon relativ früh schloss er sich der Bande der Zabrak-Kopfgeldjägerin Sugi an, die den Kyuzo-Krieger sehr schätzte. Mit den Mitgliedern der Gruppe erledigte er Aufträge in allen Teilen der Galaxis, so auch auf Felucia oder Nal Hutta. Dabei arbeitete er sowohl für kleine Farmerfamilien als auch für große Organisationen wie die Hutten oder die Separatisten.",
+  "Hondo Ohnaka war zur Zeit der Klonkriege der Anführer einer Bande von Weequay-Piraten. Er nahm den Separatisten-Führer Dooku gefangen, um von der Republik ein Lösegeld zu erzwingen. Um noch mehr Geld in Form von Spice zu bekommen, nahm er auch die zur Prüfung der Wahrheit von Hondos Aussagen geschickten Anakin Skywalker und Obi-Wan Kenobi gefangen. Nach mehreren Fluchtversuchen scheiterte jedoch die Lösegeldübergabe, da sein Stellvertreter Turk Falso ihn verriet. ",
+  "Der Cosianer Tera Sinube war ein Jedi-Meister, der seit der Ära der Hohen Republik dem Jedi-Orden diente. In seinen jungen Jahren stieg er innerhalb des Ordens schnell auf, bis er als Jedi-Meister Marshal des Jedi-Außenpostens auf Derra wurde. In älteren Jahren galt er durch seine Arbeit gegen das Verbrechen in der kriminellen Unterwelt von Coruscant als Meister dieses Faches. Dies kam ihm zugute, als er während der Klonkriege der Padawan Ahsoka Tano half, ihr gestohlenes Lichtschwert zu finden. ",
+  "Aayla Secura war eine Twi'lek-Jedi-Meisterin des Alten Jedi-Ordens, die zur Zeit der Klonkriege lebte. Nach ihrer Zeit als Padawan von Quinlan Vos kämpfte sie als Jedi-General in zahlreichen Schlachten der Klonkriege. Sie starb im Jahr 19 VSY im Zuge der Ausführung der Order 66. "
 ];
 
 var ära1Bilder = [
@@ -136,7 +192,11 @@ var ära2Bilder = [
   "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536&width=768",
   "https://lumiere-a.akamaihd.net/v1/images/ss-remnant-stormtroopers_b9788ca2.jpeg?region=272%2C183%2C1084%2C609&width=768",
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
-  "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768"
+  "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768",
+  "https://www.queer.de/img/lando-rueckkehr-jedi-ritter-600x315.jpg",
+  "https://www.scified.com/articles/star-wars-rancor-history-origins-boba-fetts-new-pet-5.jpg",
+  "https://static.wikia.nocookie.net/jedipedia/images/0/07/Ein_Tusken-R%C3%A4uber.png/revision/latest?cb=20211213212902&path-prefix=de",
+  "https://images3.alphacoders.com/268/thumb-350-268615.jpg"
 ];
 var ära3Bilder = [
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
@@ -155,6 +215,29 @@ var ära3Bilder = [
   "https://lumiere-a.akamaihd.net/v1/images/porg-main_16933d3b.jpeg?region=0%2C0%2C1560%2C878&width=768",
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
   "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768"
+];
+var clonewarsBilder = [
+  "https://static3.srcdn.com/wordpress/wp-content/uploads/2020/05/Star-Wars-The-Clone-Wars-Season-Seven-7-Commander-Cody.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+  "https://static.wikia.nocookie.net/jedipedia/images/f/f1/Bild06_-_Rex_Bericht2.jpeg/revision/latest?cb=20200520223752&path-prefix=de",
+  "https://qph.fs.quoracdn.net/main-qimg-9e905f5acbb4d8180f0598001063cf6f",
+  "https://outerrimnews.com/wp-content/uploads/2018/12/anakin-skywalker.jpg",
+  "https://media.comicbook.com/2020/04/star-wars-clone-wars-movie-ahsoka-tano-1214557.jpeg?auto=webp&width=696&height=390&crop=696:390,smart",
+  "https://i.ytimg.com/vi/WDTDCRmYM9Q/maxresdefault.jpg",
+  "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/06/Anakin-Threatens-Dooku-Clone-Wars.jpg?q=50&fit=crop&w=963&h=481&dpr=1.5",
+  "https://starwarsblog.starwars.com/wp-content/uploads/2021/04/the-clone-wars-palpatine.jpg",
+  "https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-e4ugl0_ad7c6284.jpeg?region=0%2C0%2C1200%2C675",
+  "https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-ek8q0y_78e6d8ab.jpeg?region=0%2C0%2C1200%2C675",
+  "https://lumiere-a.akamaihd.net/v1/images/databank_nutegunray_01_169_9d66ded2.jpeg?region=0%2C0%2C1560%2C780",
+  "https://static.wikia.nocookie.net/jedipedia/images/7/70/Ahsokagefangen.jpg/revision/latest?cb=20100209205324&path-prefix=de",
+  "http://pm1.narvii.com/7120/200076a8f9a273f897f9787743a8becc4e47c009r1-960-540v2_00.jpg",
+  "https://www.playcentral.de/wp-content/uploads/2020/04/clonewars-maul-652x367.jpg",
+  "https://static3.cbrimages.com/wordpress/wp-content/uploads/2021/02/Asajj-Ventress-Clone-Wars.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
+  "https://starwarsmemories.files.wordpress.com/2014/03/schnappschuss-2014-03-09-21-15-26.jpg",
+  "https://i.ytimg.com/vi/ANba5amXILA/maxresdefault.jpg",
+  "https://lumiere-a.akamaihd.net/v1/images/databank_embo_01_169_60b97902.jpeg?region=0%2C49%2C1560%2C780",
+  "https://lumiere-a.akamaihd.net/v1/images/image_cdeac55c.jpeg?height=877&width=1560&x=0&y=0",
+  "https://lumiere-a.akamaihd.net/v1/images/databank_terasinube_01_169_73b2bf3d.jpeg?region=0%2C0%2C1560%2C780",
+  "https://cdn.jwplayer.com/v2/media/aXAEzVLw/poster.jpg?width=1920"
 ];
 
 var ära1Summe = [
@@ -192,6 +275,29 @@ var ära3Summe = [
   18,
   303,
   240
+];
+var clonewarsSumme = [
+  52,
+  37,
+  89,
+  82,
+  75,
+  140,
+  146,
+  297,
+  30,
+  22,
+  41,
+  42,
+  133,
+  145,
+  136,
+  241,
+  90,
+  43,
+  18,
+  78,
+  87
 ];
 
 var glückwunsch = document.querySelector("#glückwunsch");
@@ -289,6 +395,13 @@ if (gespeicherteÄra === "Teil 1-3") {
   characterFürÄra(ära2Summe, ära2Character, ära2Bilder, ära2Steckbrief);
 } else if (gespeicherteÄra === "Teil 7-9") {
   characterFürÄra(ära3Summe, ära3Character, ära3Bilder, ära3Steckbrief);
+} else if (gespeicherteÄra === "Clonewars") {
+  characterFürÄra(
+    clonewarsSumme,
+    clonewarsCharacter,
+    clonewarsBilder,
+    clonewarsSteckbrief
+  );
 }
 
 if (ergebnisCharacter === "Rick Astley") {
