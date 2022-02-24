@@ -185,3 +185,7 @@ input[type="radio"]:checked::before {
   text-align: center;
   font-family: STARWARS;
 }
+.Name {
+  font-size: 25px;
+  color: rgb(210, 165, 0);
+}

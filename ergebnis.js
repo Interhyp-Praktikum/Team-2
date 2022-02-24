@@ -235,7 +235,8 @@ if (ergebnisCharacter === "Rick Astley") {
 }
 
 if (glückwunsch) {
-  glückwunsch.innerText = "Glückwunsch " + gespeicherterName + ", du bist:";
+  glückwunsch.innerHTML =
+    "Glückwunsch <span class='Name'>" + gespeicherterName + "</span>, du bist:";
 }
 if (character) {
   character.innerText = ergebnisCharacter;
