@@ -1,3 +1,5 @@
+import "animate.css";
+
 // Hier kommt dein code
 var ära1Character = [
   "Rick Astley",

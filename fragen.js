@@ -1,3 +1,5 @@
+import "animate.css";
+
 window.abschicken = function () {
   // hier kommt dein code bei klick auf den button
 
@@ -53,6 +55,6 @@ window.abschicken = function () {
 
     document.location = "/ergebnis.html";
   } else {
-    Fehler.innerText = "⚠️Wähle für jede Frage eine Antwort aus⚠️";
+    Fehler.style.display = "block";
   }
 };
