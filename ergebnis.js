@@ -66,7 +66,7 @@ var clonewarsCharacter = [
   "Cody",
   "Rex",
   "Obi Wan Kenobi",
-  "Anikan Skywalker",
+  "Anakin Skywalker",
   "Ahsoka Tano",
   "General Grievous",
   "Count Dooku",
@@ -209,7 +209,7 @@ var oldRepublicSteckbrief = [
   "Als Jedi-Meister und Kommandant des republikanischen Militärs schloss sich Jensyn dem Orden von Revan an und nahm an dem Angriff auf Korriban teil, wo er schließlich von einer Gruppe imperialer Krieger getötet wurde.",
   "Als weiblicher Jedi-Ritter und ehemaliger Lehrling von Ven Zallow wurde Aryn Leneer ausgewählt, die Delegation der Galaktischen Republik nach Alderaan zu begleiten, um dort einen Friedensvertrag mit dem Sith-Imperium zu unterzeichnen. Nachdem sie erfahren hatte, dass Meister Zallow getötet worden war, verließ sie Alderaan und ging nach Coruscant, um herauszufinden, was geschehen war. Als sie erfuhr, dass Darth Malgus für den Mord an Zallow verantwortlich war, schwor sie, den Tod ihres Meisters zu rächen. Als Empathin waren Emotionen aller Art ein täglicher Bestandteil von Aryns Leben, was ihr die einzigartige Fähigkeit verlieh, sich in die Menschen hineinzuversetzen, mit denen sie zu tun hatte. ",
   "Sie ist die Sicherheitschefin der kleinen Enklave auf Ossus und in der Befehlskette die zweite nach Meister Gnost-Dural. Wenn sich der Outlander auf die Seite der Republik schlägt, begleitet sie ihn, um Darth Maloras Angriff auf die Kolonie zu verhindern. Sie ist äußerst kampferprobt und hat schon viele Schlachten überlebt, ist aber der Meinung, dass ihre Talente sie zu einem guten Soldaten und einem schlechten Jedi machen.",
-  "Die Anführerin der Galaktischen Republik zur Zeit des Kalten Krieges, die zunächst als Senatorin auf Coruscant diente. Nach der Plünderung von Coruscant nahm Janarus es auf sich, die führerlose Republik wieder zusammenzuführen, nachdem sie am Ende des Großen Krieges einen so schweren Schlag erlitten hatte. Der große Respekt, den das Volk und die Politiker ihm entgegenbrachten, veranlasste sie dazu, ihn einstimmig zum Obersten Kanzler zu wählen und damit denjenigen zu ersetzen, der bei dem Angriff verloren gegangen war. ",
+  "Der Anführer der Galaktischen Republik zur Zeit des Kalten Krieges, der zunächst als Senator von Coruscant diente. Nach der Plünderung von Coruscant nahm Janarus es auf sich, die führungslose Republik wieder zusammenzuführen, nachdem sie am Ende des Großen Krieges einen so schweren Schlag erlitten hatte. Der große Respekt, den das Volk und die Politiker ihm entgegenbrachten, veranlasste sie dazu, ihn einstimmig zum Obersten Kanzler zu wählen und damit denjenigen zu ersetzen, der bei dem Angriff verloren gegangen war.",
   "Ein republikanischer Soldat, der die Rückkehr des Sith-Imperiums miterlebte und Satele Shan zur Flucht verhalf. Später führte er republikanische Truppen in der Schlacht von Alderaan an und half Satele, Darth Malgus zu besiegen. Er ist eine Inspiration für Trooper in der gesamten Republik.",
   "Saresh, eine Twi'lek-Politikerin, die von tarisianischen Einwohnern abstammt, ist als Gouverneurin der Republik in die Heimat ihrer Vorfahren zurückgekehrt und leitet die Bemühungen, aus den Ruinen der alten Metropole ein neues Taris zu errichten. Ihre Aufgabe ist nicht einfach, und sie hat mit ständigen Rückschlägen und anderen Problemen zu kämpfen, zusätzlich zu der ständigen Bedrohung durch Angriffe von Rakghouls und anderen Gefahren. Es gelingt ihr, beim Wiederaufbau beträchtliche Fortschritte zu machen, doch wird alles durch eine imperiale Invasion zunichte gemacht, die Taris nicht wieder auferstehen lassen will, und Saresh entkommt nur knapp in die Republik.",
   "Manche wollen in die Fußstapfen ihrer Eltern treten, andere verabscheuen das Konzept. Für Theron Shan ist das ein strittiger Punkt. Da die Jedi strikt gegen Bindungen sind, schickte Therons Mutter, Großmeisterin Satele Shan, ihren kleinen Sohn zu dem Jedi, der sie ausgebildet hatte, Meister Ngani Zho. Als sich im Laufe der Zeit herausstellte, dass Theron nicht so machtsensitiv war wie seine Mutter, gab er den Gedanken auf, ein Jedi zu werden. Schließlich schloss er sich dem Strategischen Informationsdienst an und nutzte seine abenteuerliche Natur und seine einzigartigen Fähigkeiten, um ein vertrauenswürdiger Feldagent für die Republik zu werden.",
@@ -221,7 +221,7 @@ var oldRepublicSteckbrief = [
   "Darth Mortis ist der Aufseher über die Sphäre der Gesetze und der Gerechtigkeit. Er bildete einen Sith-Lehrling namens Zavrasha aus und setzte sich dafür ein, dass der Vertrag von Coruscant in Kraft blieb. Nach der Invasion der Zakuulaner ist er eines der wenigen überlebenden Mitglieder des Dunklen Rates.",
   "Als Leiter der Sphäre der Technologie nach dem Tod von Darth Karrid in der Schlacht von Duro wacht Darth Acina über das Arkanum, eine Raumstation, die gefährliche und mächtige Sith-Artefakte beherbergt. Nachdem die Dread Masters abtrünnig geworden sind und ihre Agenten mehrere Gegenstände aus dem Arkanum gestohlen haben, ruft Acina einen imperialen Helden herbei, um die Artefakte zurückzuholen. Während der Erweiterung des Gefallenen Imperiums wird sie zur Kaiserin der Sith, nachdem die meisten Mitglieder des Dunklen Rates an das Ewige Imperium gefallen sind.",
   "Leiter der Sphäre der biotischen Wissenschaft. Darth Acharon wird vom imperialen Militär allgemein verachtet, weil er Hunderte von Männern exekutiert hat, die er für inkompetent hielt, angefangen von fehlgeschlagenen Missionen bis hin zu unpolierten Stiefeln. Er war einer der Aufseher in der Schlacht um Corellia und wurde von einem republikanischen Stoßtrupp niedergestreckt.",
-  "Head of the Sphere of Military Strategy, Darth Decimus is one of the Empire's greatest tacticians. He oversaw the invasion of Corellia for the Empire, but met his end when the Republic and Corellian resistance retook the planet."
+  "Darth Decimus, Leiter der Sphäre für Militärstrategie, ist einer der größten Taktiker des Imperiums. Er leitete für das Imperium die Invasion von Corellia, fand aber sein Ende, als die Republik und der corellianische Widerstand den Planeten zurückeroberten."
 ];
 var ära1Bilder = [
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
@@ -284,7 +284,7 @@ var ära3Bilder = [
 var clonewarsBilder = [
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
   "https://static3.srcdn.com/wordpress/wp-content/uploads/2020/05/Star-Wars-The-Clone-Wars-Season-Seven-7-Commander-Cody.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
-  "https://static.wikia.nocookie.net/jedipedia/images/f/f1/Bild06_-_Rex_Bericht2.jpeg/revision/latest/top-crop/width/360/height/360?cb=20200520223752&path-prefix=de",
+  "https://upload.wikimedia.org/wikipedia/en/e/eb/CloneCaptainRex.png",
   "https://qph.fs.quoracdn.net/main-qimg-9e905f5acbb4d8180f0598001063cf6f",
   "https://outerrimnews.com/wp-content/uploads/2018/12/anakin-skywalker.jpg",
   "https://media.comicbook.com/2020/04/star-wars-clone-wars-movie-ahsoka-tano-1214557.jpeg?auto=webp&width=696&height=390&crop=696:390,smart",
@@ -293,9 +293,9 @@ var clonewarsBilder = [
   "https://starwarsblog.starwars.com/wp-content/uploads/2021/04/the-clone-wars-palpatine.jpg",
   "https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-e4ugl0_ad7c6284.jpeg?region=0%2C0%2C1200%2C675",
   "https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-ek8q0y_78e6d8ab.jpeg?region=0%2C0%2C1200%2C675",
-  "https://lumiere-a.akamaihd.net/v1/images/databank_nutegunray_01_169_9d66ded2.jpeg?region=0%2C0%2C1560%2C780",
-  "https://static.wikia.nocookie.net/jedipedia/images/7/70/Ahsokagefangen.jpg/revision/latest?cb=20100209205324&path-prefix=de",
-  "http://pm1.narvii.com/7120/200076a8f9a273f897f9787743a8becc4e47c009r1-960-540v2_00.jpg",
+  "https://static.wikia.nocookie.net/heroic-2008-grievous/images/4/46/Nute_and_B1s.png/revision/latest?cb=20170121050120",
+  "https://insolenzadir2d2.it/wp-content/uploads/2020/09/Cad-Bane.jpg",
+  "https://lumiere-a.akamaihd.net/v1/images/databank_savageopress_01_169_02e79834.jpeg?region=0%2C49%2C1560%2C780",
   "https://www.playcentral.de/wp-content/uploads/2020/04/clonewars-maul-652x367.jpg",
   "https://static3.cbrimages.com/wordpress/wp-content/uploads/2021/02/Asajj-Ventress-Clone-Wars.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
   "https://starwarsmemories.files.wordpress.com/2014/03/schnappschuss-2014-03-09-21-15-26.jpg",
