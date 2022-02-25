@@ -85,6 +85,32 @@ var clonewarsCharacter = [
   "Rick Astley",
   "Yoda"
 ];
+var oldRepublicCharacter = [
+  "Satele Shan",
+  "Gnost-Dural",
+  "Jaric Kaedan",
+  "Oric Traless",
+  "Dar'Nala",
+  "Ven Zallow",
+  "Belth Allusis",
+  "Jensyn",
+  "Aryn Leneer",
+  "Tau Idair",
+  "Dorian Janarus",
+  "Jace Malcom",
+  "Leontyne Saresh",
+  "Theron Shan",
+  "Rian Darok",
+  "Cole Cantarus",
+  "Vitiate",
+  "Lord Dramath",
+  "Darth Marr",
+  "Darth Mortis",
+  "Darth Acina",
+  "Darth Acharon",
+  "Darth Decimus"
+];
+
 var ära1Steckbrief = [
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
   "Qui-Gon Jinn, ein machtsensitiver männlicher Mensch, war ein ehrwürdiger, wenn auch eigenwilliger Jedi-Meister, der in den letzten Jahren der Republik lebte. Er war ein weises und angesehenes Mitglied des Jedi-Ordens und ihm wurde ein Sitz im Jedi-Rat angeboten, doch er lehnte ab und ging seinen eigenen Weg. Jinn vertrat eine Philosophie, die sich um die Lebendige Macht drehte, und war bestrebt, dem Willen der Macht zu folgen, selbst wenn seine Handlungen mit den Wünschen des Hohen Rates in Konflikt gerieten. Nachdem er Anakin Skywalker begegnet war, brachte Jinn ihn in den Jedi-Tempel auf Coruscant und war überzeugt, den Auserwählten gefunden zu haben. Sein letzter Wunsch war, dass Skywalker ein Jedi werden und das Gleichgewicht der Macht wiederherstellen sollte.",
@@ -170,7 +196,31 @@ var clonewarsSteckbrief = [
   "Rickrolling (auch Rick Rolling) ist ein Scherz im Internet, bei dem ein ahnungsloser Internetnutzer auf ein Videoportal geleitet wird, auf dem ihm das Musikvideo des Liedes Never Gonna Give You Up von Rick Astley präsentiert wird.",
   "Yoda war ein Jedi-Meister des Alten Jedi-Ordens und führendes Mitglied im Hohen Rat der Jedi. Er war für die Ausbildung der Jünglinge im Jedi-Tempel mitverantwortlich und nahm Dooku als seinen Padawan an. Nach den Klonkriegen überlebte er die Order 66 und versteckte sich auf Dagobah vor dem Imperium. Nach 22 Jahren im Exil begann er Luke Skywalker auszubilden. Nachdem dieser 4 NSY nach Dagobah zurückkehrte, um seine abgebrochene Ausbildung zu beenden, starb Yoda im Alter von 900 Jahren an Altersschwäche und wurde eins mit der Macht. "
 ];
-
+var oldRepublicSteckbrief = [
+  "Nachfahrin von Bastila Shan und Darth Revan. Sie begann als Padawan und wurde während der Rückkehr des Sith-Imperiums zum Konsul. Einige Jahre später ist Satele die aktuelle Großmeisterin des Jedi-Rates. Sie ist auch die leibliche Mutter von Theron Shan, die aus einer Liebesaffäre mit Jace Malcolm während des letzten Krieges hervorgegangen ist.",
+  "Gnost-Dural, ein Jedi aus Kel'Dor, ist der Hüter der Jedi-Archive und ein wichtiger Historiker innerhalb des Ordens. Seine historischen Analysen werden als Videos auf der Website des Spiels Old Republic präsentiert. Später taucht er als Leiter der Jedi-Siedlung auf dem Planeten Ossus auf.",
+  "Kaedan, auch als Wächter des Ordens bekannt, ist ein mächtiger Jedi-Meister, der dem Rat während des Kalten Krieges beitrat. Als pragmatischer Krieger glaubte Kaedan, dass in der Galaxis niemals Frieden herrschen würde, solange die Sith existierten, und war besorgt darüber, dass die Jedi während des Konflikts der dunklen Seite anheimfallen könnten.",
+  "Als oberster Kampfberater des Jedi-Rats war Meister Traless die letzte Verteidigungslinie des Jedi-Tempels auf Tython, als dieser vom Sith-Imperium angegriffen wurde.",
+  "Satele's Jedi-Meisterin Dar'Nala und ihr ehemaliger Padawan wurden ausgewählt, den Jedi-Orden während des Großen Galaktischen Krieges auf einer Friedenskonferenz auf Alderaan zu vertreten. Die von den Sith arrangierte Konferenz diente als Ablenkungsmanöver, um die republikanischen Streitkräfte vom eigentlichen Ziel des Imperiums abzulenken - der Plünderung der republikanischen Hauptstadt Coruscant. Nach dem vernichtenden Angriff des Imperiums auf Coruscant waren die Delegierten der Republik und der Jedi auf Alderaan gezwungen, das vom Imperium verfasste Friedensabkommen, den Vertrag von Coruscant, zu akzeptieren. Dar'Nala war natürlich strikt dagegen, das Dokument zu unterzeichnen, willigte aber auf Anraten von Jedi-Großmeister Zym und der republikanischen Senatorin Paran Am-Ris ein.",
+  "Ein Jedi-Meister, der für seine weisen Ratschläge und seine ruhige Art bekannt ist und im Trailer zu Deceived zu sehen ist. Zallow führte die Jedi während des ersten Kampfes gegen die Sith an und kämpfte gegen Malgus in einem Lichtschwertduell, wurde aber kurz darauf von Malgus in den Unterleib gestochen.",
+  "Ein Jedi-Meister, der die Republik während ihres letzten Gefechts auf Bothawui anführte. Obwohl alle Verteidiger der Republik, einschließlich Allusis, getötet wurden, gelang es ihnen, den Sith schwere Verluste zuzufügen und sie zum Rückzug zu zwingen. Das letzte Gefecht der Helden von Bothawui - wie Allusis und seine Männer genannt wurden - ließ die Hoffnung in der Republik wieder aufleben und stellte einen Wendepunkt im Krieg dar. Die von ihnen entwickelten Strategien halfen der Republik, den Vormarsch der Sith vorübergehend aufzuhalten, bis sich die Sith vier Jahre später mit den Mandalorianern verbündeten.",
+  "Als Jedi-Meister und Kommandant des republikanischen Militärs schloss sich Jensyn dem Orden von Revan an und nahm an dem Angriff auf Korriban teil, wo er schließlich von einer Gruppe imperialer Krieger getötet wurde.",
+  "Als weiblicher Jedi-Ritter und ehemaliger Lehrling von Ven Zallow wurde Aryn Leneer ausgewählt, die Delegation der Galaktischen Republik nach Alderaan zu begleiten, um dort einen Friedensvertrag mit dem Sith-Imperium zu unterzeichnen. Nachdem sie erfahren hatte, dass Meister Zallow getötet worden war, verließ sie Alderaan und ging nach Coruscant, um herauszufinden, was geschehen war. Als sie erfuhr, dass Darth Malgus für den Mord an Zallow verantwortlich war, schwor sie, den Tod ihres Meisters zu rächen. Als Empathin waren Emotionen aller Art ein täglicher Bestandteil von Aryns Leben, was ihr die einzigartige Fähigkeit verlieh, sich in die Menschen hineinzuversetzen, mit denen sie zu tun hatte. ",
+  "Sie ist die Sicherheitschefin der kleinen Enklave auf Ossus und in der Befehlskette die zweite nach Meister Gnost-Dural. Wenn sich der Outlander auf die Seite der Republik schlägt, begleitet sie ihn, um Darth Maloras Angriff auf die Kolonie zu verhindern. Sie ist äußerst kampferprobt und hat schon viele Schlachten überlebt, ist aber der Meinung, dass ihre Talente sie zu einem guten Soldaten und einem schlechten Jedi machen.",
+  "Die Anführerin der Galaktischen Republik zur Zeit des Kalten Krieges, die zunächst als Senatorin auf Coruscant diente. Nach der Plünderung von Coruscant nahm Janarus es auf sich, die führerlose Republik wieder zusammenzuführen, nachdem sie am Ende des Großen Krieges einen so schweren Schlag erlitten hatte. Der große Respekt, den das Volk und die Politiker ihm entgegenbrachten, veranlasste sie dazu, ihn einstimmig zum Obersten Kanzler zu wählen und damit denjenigen zu ersetzen, der bei dem Angriff verloren gegangen war. ",
+  "Ein republikanischer Soldat, der die Rückkehr des Sith-Imperiums miterlebte und Satele Shan zur Flucht verhalf. Später führte er republikanische Truppen in der Schlacht von Alderaan an und half Satele, Darth Malgus zu besiegen. Er ist eine Inspiration für Trooper in der gesamten Republik.",
+  "Saresh, eine Twi'lek-Politikerin, die von tarisianischen Einwohnern abstammt, ist als Gouverneurin der Republik in die Heimat ihrer Vorfahren zurückgekehrt und leitet die Bemühungen, aus den Ruinen der alten Metropole ein neues Taris zu errichten. Ihre Aufgabe ist nicht einfach, und sie hat mit ständigen Rückschlägen und anderen Problemen zu kämpfen, zusätzlich zu der ständigen Bedrohung durch Angriffe von Rakghouls und anderen Gefahren. Es gelingt ihr, beim Wiederaufbau beträchtliche Fortschritte zu machen, doch wird alles durch eine imperiale Invasion zunichte gemacht, die Taris nicht wieder auferstehen lassen will, und Saresh entkommt nur knapp in die Republik.",
+  "Manche wollen in die Fußstapfen ihrer Eltern treten, andere verabscheuen das Konzept. Für Theron Shan ist das ein strittiger Punkt. Da die Jedi strikt gegen Bindungen sind, schickte Therons Mutter, Großmeisterin Satele Shan, ihren kleinen Sohn zu dem Jedi, der sie ausgebildet hatte, Meister Ngani Zho. Als sich im Laufe der Zeit herausstellte, dass Theron nicht so machtsensitiv war wie seine Mutter, gab er den Gedanken auf, ein Jedi zu werden. Schließlich schloss er sich dem Strategischen Informationsdienst an und nutzte seine abenteuerliche Natur und seine einzigartigen Fähigkeiten, um ein vertrauenswürdiger Feldagent für die Republik zu werden.",
+  "Ein Jedi-Meister, der die Republik während ihres letzten Gefechts auf Bothawui anführte. Als erfahrener Kommandeur einer Spezialeinheit ist Darok ein hoch angesehener Offizier. Er beaufsichtigt den Überfall der Republik auf die Sith-Akademie von Korriban und den Gegenangriff auf Tython. Darok ist insgeheim ein Mitglied des Ordens von Revan und will sowohl die Republik als auch das Imperium vernichten, damit nach der endgültigen Niederlage des Sith-Imperators eine neue galaktische Ordnung an ihre Stelle treten kann.",
+  "Als langjähriges Mitglied der corellianischen Sicherheitstruppe half Cantarus, die corellianische Rebellion gegen die Sith-Besetzung des Planeten anzuführen.",
+  "Der amtierende Dunkle Lord der Sith und Anführer des wiederbelebten Sith-Imperiums aus der Ära von Naga Sadow. Vitiate wurde als Tenebrae auf einem unbedeutenden Planeten des alten Sith-Imperiums geboren, bevor er nach dem Ende des Großen Hyperraum-Krieges zum neuen Sith-Imperator aufstieg und sein Volk ins Exil führte.",
+  "Lord Dramath ist ein männlicher Sith-Lord des Alten Sith-Imperiums, der in den Jahren vor dem Großen Hyperraumkrieg über den Planeten Medriaas herrschte. Er ist der Vater von Tenebrae, der auch als Lord Vitiate, dem Sith-Imperator, bekannt ist.",
+  "Ein Mitglied des Dunklen Rates mit einer besonderen Abneigung gegen Lord Calypho und Teneb Kel. Trotz seiner kalten und unbarmherzigen Art war Marr vernünftig genug, eine Person nicht zu töten, wenn sie wichtige Informationen besaß, die er wissen musste, wie zum Beispiel, als er beschloss, Teneb Kel für seine Aufsässigkeit zu verschonen, als Kel erwähnte, dass er etwas hatte, das der Dunkle Rat wollte. Er verachtet die Machtkämpfe, die die Politik der Sith plagen, was ihn zum inoffiziellen Anführer des Dunklen Rates gemacht hat.",
+  "Darth Mortis ist der Aufseher über die Sphäre der Gesetze und der Gerechtigkeit. Er bildete einen Sith-Lehrling namens Zavrasha aus und setzte sich dafür ein, dass der Vertrag von Coruscant in Kraft blieb. Nach der Invasion der Zakuulaner ist er eines der wenigen überlebenden Mitglieder des Dunklen Rates.",
+  "Als Leiter der Sphäre der Technologie nach dem Tod von Darth Karrid in der Schlacht von Duro wacht Darth Acina über das Arkanum, eine Raumstation, die gefährliche und mächtige Sith-Artefakte beherbergt. Nachdem die Dread Masters abtrünnig geworden sind und ihre Agenten mehrere Gegenstände aus dem Arkanum gestohlen haben, ruft Acina einen imperialen Helden herbei, um die Artefakte zurückzuholen. Während der Erweiterung des Gefallenen Imperiums wird sie zur Kaiserin der Sith, nachdem die meisten Mitglieder des Dunklen Rates an das Ewige Imperium gefallen sind.",
+  "Leiter der Sphäre der biotischen Wissenschaft. Darth Acharon wird vom imperialen Militär allgemein verachtet, weil er Hunderte von Männern exekutiert hat, die er für inkompetent hielt, angefangen von fehlgeschlagenen Missionen bis hin zu unpolierten Stiefeln. Er war einer der Aufseher in der Schlacht um Corellia und wurde von einem republikanischen Stoßtrupp niedergestreckt.",
+  "Head of the Sphere of Military Strategy, Darth Decimus is one of the Empire's greatest tacticians. He oversaw the invasion of Corellia for the Empire, but met his end when the Republic and Corellian resistance retook the planet."
+];
 var ära1Bilder = [
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
   "https://lumiere-a.akamaihd.net/v1/images/Qui-Gon-Jinn_d89416e8.jpeg?region=0%2C1%2C1536%2C864&width=768",
@@ -254,6 +304,31 @@ var clonewarsBilder = [
   "https://cdn.jwplayer.com/v2/media/aXAEzVLw/poster.jpg?width=1920",
   "https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif",
   "https://i.ytimg.com/vi/5-fkESkmvu0/maxresdefault.jpg"
+];
+var oldRepublicBilder = [
+  "https://static.tvtropes.org/pmwiki/pub/images/satele_shan.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/gnost_dural.jpg",
+  "https://static.tvtropes.org/pmwiki/pub/images/jaric_kaedan.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/oric_traless.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/Nala-001_4758.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/ven_zallow.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/belth_allusis.jpg",
+  "https://static.tvtropes.org/pmwiki/pub/images/jensyn.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/aryn_leneer.jpg",
+  "https://static.tvtropes.org/pmwiki/pub/images/tau_idair.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/dorian_janarus.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/jace_malcom.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/leontyne_saresh.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/theron_shan.jpg",
+  "https://static.tvtropes.org/pmwiki/pub/images/rian_darok.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/cole_cantarus.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/4470814_4300080_emperorvitiate2.jpg",
+  "https://static.tvtropes.org/pmwiki/pub/images/dramath_face.JPG",
+  "https://static.tvtropes.org/pmwiki/pub/images/darth_marr13.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/mortis_1.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/darth_acina.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/darth_acharon_2.png",
+  "https://static.tvtropes.org/pmwiki/pub/images/darth_decimus.png"
 ];
 
 var ära1Summe = [
@@ -340,6 +415,32 @@ var clonewarsSumme = [
   87,
   303,
   240
+];
+
+var oldRepublicSumme = [
+  89,
+  83,
+  77,
+  82,
+  240,
+  74,
+  88,
+  86,
+  69,
+  65,
+  75,
+  32,
+  22,
+  31,
+  41,
+  23,
+  298,
+  303,
+  136,
+  143,
+  141,
+  133,
+  135
 ];
 
 var glückwunsch = document.querySelector("#glückwunsch");
@@ -443,6 +544,13 @@ if (gespeicherteÄra === "Teil 1-3") {
     clonewarsCharacter,
     clonewarsBilder,
     clonewarsSteckbrief
+  );
+} else if (gespeicherteÄra === "Oldrepublic") {
+  characterFürÄra(
+    oldRepublicSumme,
+    oldRepublicCharacter,
+    oldRepublicBilder,
+    oldRepublicSteckbrief
   );
 }
 
