@@ -73,6 +73,7 @@ div {
   border: none;
   font-size: 25px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .infotext {
   height: 350px;
